@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>album</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngIf="info">
+    <ion-card-header>
+      <ion-card-subtitle>{{info.id}}</ion-card-subtitle>
+      <ion-card-title>Album</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{info.title}}
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
